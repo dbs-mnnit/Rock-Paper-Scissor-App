@@ -1,0 +1,48 @@
+body
+{
+    background: rgba(140, 196, 97, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    height: 20vh;
+    width: 55vw;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+h1{
+    font-family: Inter;
+    font-size: 2vmax;
+    margin: 2vh;
+    font-weight: bold;
+    color: white;
+}
+.score_board
+{
+    height: 12vh;
+    width: 8vw;
+    background-color: white;
+    margin: 4vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+.score_board_text
+{
+    font-size: 2vh;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+#computer_score, #your_score
+{
+    font-size: 5vh;
+    font-weight: 700;
+}
